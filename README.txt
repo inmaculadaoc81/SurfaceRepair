@@ -1,10 +1,9 @@
-AsusRepair | Servicio Técnico Asus
+SurfaceRepair | Servicio Técnico Microsoft Surface
 
-Sitio web de AsusRepair, servicio técnico independiente especializado en diagnóstico y reparación de ordenadores y portátiles Asus.
+Sitio web de SurfaceRepair, servicio técnico independiente especializado en diagnóstico y reparación de equipos Microsoft Surface.
 
-Web: https://serviciotecnicodeordenadores.es/
-Teléfono: +34 918 29 46 56
+Web: https://tecnicospc.es/
+Teléfono: +34 918 29 46 53
 WhatsApp: +34 649 97 01 28
-Dirección: C. de Joaquín María López, 26, Chamberí, 28015 Madrid
 
 Diagnóstico gratuito en taller. Presupuesto previo a la reparación.

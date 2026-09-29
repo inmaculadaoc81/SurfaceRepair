@@ -34,7 +34,7 @@
 /* Reducir separación entre proceso y confianza */
 #proceso{padding-bottom:38px}.trust-section{padding-top:38px}
 
-/* AsusRepair: paleta gris, negro y blanco inspirada en la referencia */
+/* SurfaceRepair: paleta gris, negro y blanco inspirada en la referencia */
 :root{--brand:#6f6f6f;--brand-dark:#4f4f4f;--brand-soft:#eeeeee}
 .hero{background-color:#6f6f6f;background-image:
 linear-gradient(135deg,rgba(255,255,255,.055) 25%,transparent 25%),
@@ -73,7 +73,7 @@ background-size:72px 72px;color:#fff}
 }
 .map-wrap .maplink.lower:hover{background:var(--blue-dark);color:#fff}
 
-/* AsusRepair: fondo limpio, sobrio y técnico */
+/* SurfaceRepair: fondo limpio, sobrio y técnico */
 .hero{position:relative;overflow:hidden}
 .hero .wrap{position:relative;z-index:1}
 
@@ -88,7 +88,7 @@ background-size:72px 72px;color:#fff}
 /* Cita previa Cal.com */
 .appointment-section{background:#f7f7f7;padding:72px 0}.appointment-lead{text-align:center;margin:0 auto 28px;max-width:720px}.calendar-wrap{width:100%;max-width:1100px;margin:0 auto;overflow:hidden;border-radius:22px;background:#fff;border:1px solid #e5e5e5;box-shadow:0 14px 40px #00000012}.cal-frame{display:block;width:100%;height:720px;border:0;background:#fff}@media(max-width:700px){.appointment-section{padding:52px 0}.cal-frame{height:680px}.calendar-wrap{border-radius:16px}}
 
-/* Ajustes AsusRepair: gris + azul + negro + blanco */
+/* Ajustes SurfaceRepair: gris + azul + negro + blanco */
 :root{--cui-blue:#0b6fdc;--cui-blue-dark:#084f9f;--cui-grey:#6f6f6f}
 .hero{background-color:var(--cui-grey);background-image:linear-gradient(135deg,rgba(11,111,220,.20) 0 18%,transparent 18% 82%,rgba(11,111,220,.18) 82%)}
 .hero .eyebrow{background:var(--cui-blue);border-color:var(--cui-blue)}
@@ -106,7 +106,7 @@ background-size:72px 72px;color:#fff}
 .map-wrap .maplink.lower:hover{background:var(--cui-blue-dark)!important;color:#fff!important}
 @media(max-width:600px){.brand-logo,.footer-brand .brand-logo{width:42px;height:42px}.map-wrap .maplink.lower{width:100%!important;justify-content:center!important}}
 
-/* Hero AsusRepair — fondo azul/negro de alta legibilidad */
+/* Hero SurfaceRepair — fondo azul/negro de alta legibilidad */
 .hero{background:#03152b!important;background-image:radial-gradient(circle at 18% 18%,rgba(11,111,220,.34),transparent 31%),radial-gradient(circle at 86% 20%,rgba(0,99,205,.22),transparent 32%),linear-gradient(145deg,#07539b 0%,#062c57 29%,#03162e 62%,#020b17 100%)!important;position:relative;overflow:hidden}
 .hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(155deg,transparent 0 18%,rgba(17,129,255,.13) 18.15% 18.45%,transparent 18.6% 47%,rgba(17,129,255,.11) 47.15% 47.45%,transparent 47.6%),radial-gradient(circle at 95% 72%,rgba(11,111,220,.32) 0 2px,transparent 2.5px);background-size:auto,22px 22px;opacity:.72}
 .hero:after{content:"";position:absolute;left:-8%;right:-8%;bottom:-38%;height:72%;border-radius:50%;border-top:2px solid rgba(13,126,246,.48);box-shadow:0 -18px 80px rgba(0,90,210,.14);transform:rotate(-5deg);pointer-events:none}
@@ -122,20 +122,20 @@ background-size:72px 72px;color:#fff}
   .chat-window-wrapper.n8n-chat [role="button"]{pointer-events:auto!important;}
 }
 
-/* AsusRepair — azul, negro y blanco */
-:root{--asus-blue:#0057b8;--asus-blue-dark:#003f86;--asus-black:#0a0a0a;--asus-white:#fff;--red:var(--asus-blue);--brand:var(--asus-blue);--brand-dark:var(--asus-blue-dark)}
-header{background:#fff}.links a:hover{color:var(--asus-blue)}
-.navcall,.maplink,.benefit-icon,.card-icon,.service-icon,.tag,.tick i,.submit{background:var(--asus-blue)!important;color:#fff!important}
-.navcall:hover,.maplink:hover,.submit:hover{background:var(--asus-black)!important}
+/* SurfaceRepair — azul, negro y blanco */
+:root{--surface-blue:#0057b8;--surface-blue-dark:#003f86;--surface-black:#0a0a0a;--surface-white:#fff;--red:var(--surface-blue);--brand:var(--surface-blue);--brand-dark:var(--surface-blue-dark)}
+header{background:#fff}.links a:hover{color:var(--surface-blue)}
+.navcall,.maplink,.benefit-icon,.card-icon,.service-icon,.tag,.tick i,.submit{background:var(--surface-blue)!important;color:#fff!important}
+.navcall:hover,.maplink:hover,.submit:hover{background:var(--surface-black)!important}
 .hero{background:#06182d!important;background-image:radial-gradient(circle at 18% 20%,rgba(0,87,184,.45),transparent 32%),linear-gradient(145deg,#07366d 0%,#041b35 42%,#050505 100%)!important;color:#fff}
 .hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(150deg,transparent 0 22%,rgba(0,119,255,.14) 22.2% 22.6%,transparent 22.8% 56%,rgba(0,119,255,.10) 56.2% 56.5%,transparent 56.7%);opacity:.8}
-.hero .eyebrow{background:var(--asus-blue)!important;border-color:var(--asus-blue)!important;color:#fff!important}
-.info{border-top-color:var(--asus-blue)!important}.info .kicker,.kicker,.center-kicker,.trust-title em,.how-title em,.seo-title em,.title em{color:var(--asus-blue)!important}
-.seo-title{border-left-color:var(--asus-blue)!important}.problem,.service{border-top-color:var(--asus-blue)!important}
-.art{background:linear-gradient(135deg,var(--asus-blue-dark),var(--asus-black))!important}
-.brand-mark{width:48px;height:48px;border-radius:10px;background:var(--asus-blue)!important;color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:24px}
-.services,.reviews-card,footer{background:var(--asus-black)!important}.youtube-card{background:#ff0000!important}
-.map-wrap .maplink.lower{background:var(--asus-blue)!important;color:#fff!important}.map-wrap .maplink.lower:hover{background:var(--asus-blue-dark)!important}
+.hero .eyebrow{background:var(--surface-blue)!important;border-color:var(--surface-blue)!important;color:#fff!important}
+.info{border-top-color:var(--surface-blue)!important}.info .kicker,.kicker,.center-kicker,.trust-title em,.how-title em,.seo-title em,.title em{color:var(--surface-blue)!important}
+.seo-title{border-left-color:var(--surface-blue)!important}.problem,.service{border-top-color:var(--surface-blue)!important}
+.art{background:linear-gradient(135deg,var(--surface-blue-dark),var(--surface-black))!important}
+.brand-mark{width:48px;height:48px;border-radius:10px;background:var(--surface-blue)!important;color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:24px}
+.services,.reviews-card,footer{background:var(--surface-black)!important}.youtube-card{background:#ff0000!important}
+.map-wrap .maplink.lower{background:var(--surface-blue)!important;color:#fff!important}.map-wrap .maplink.lower:hover{background:var(--surface-blue-dark)!important}
 
 /* Mejorar visibilidad del botón de recogida en el hero */
 .hero .cta.pickup{border:2px solid #fff!important}
